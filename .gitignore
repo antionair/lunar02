@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# 模型权重与训练产物（体积大，不进仓库）
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+wandb/
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/

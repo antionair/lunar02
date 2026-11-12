@@ -1,0 +1,67 @@
+[
+  {
+    "model": "A (R=1, no PKM)",
+    "mean_last_1000_loss": 2.6435686012109123,
+    "std_last_1000_loss": 0.007497517159217,
+    "seed_losses": [
+      2.6437703281641007,
+      2.650963219255209,
+      2.6359722562134267
+    ],
+    "total_parameters": 7242624,
+    "active_parameters": 7242624,
+    "forward_flops_per_token": 14569728
+  },
+  {
+    "model": "C N=65536 (R=1)",
+    "mean_last_1000_loss": 2.6301353961229323,
+    "std_last_1000_loss": 0.011937260752967355,
+    "seed_losses": [
+      2.6357500210404394,
+      2.6382301561534405,
+      2.616426011174917
+    ],
+    "total_parameters": 15763328,
+    "active_parameters": 7374720,
+    "forward_flops_per_token": 14840064
+  },
+  {
+    "model": "C N=262144 (R=1)",
+    "mean_last_1000_loss": 2.6062826397518317,
+    "std_last_1000_loss": 0.007308220586172939,
+    "seed_losses": [
+      2.5980300344526768,
+      2.611935693025589,
+      2.608882191777229
+    ],
+    "total_parameters": 40994688,
+    "active_parameters": 7440256,
+    "forward_flops_per_token": 14971136
+  },
+  {
+    "model": "R=3, no PKM",
+    "mean_last_1000_loss": 2.6739070671300094,
+    "std_last_1000_loss": 0.011207598039281926,
+    "seed_losses": [
+      2.6629995673894884,
+      2.6853924080729485,
+      2.673329225927591
+    ],
+    "total_parameters": 7242624,
+    "active_parameters": 7242624,
+    "forward_flops_per_token": 16273664
+  },
+  {
+    "model": "R=3, N=262144",
+    "mean_last_1000_loss": 2.651470479617516,
+    "std_last_1000_loss": 0.008453918452132727,
+    "seed_losses": [
+      2.6604769706726072,
+      2.6502277672290804,
+      2.643706700950861
+    ],
+    "total_parameters": 40994688,
+    "active_parameters": 7440256,
+    "forward_flops_per_token": 16675072
+  }
+]

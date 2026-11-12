@@ -1,0 +1,30 @@
+{
+  "device": "C:",
+  "file_bytes": 268435456,
+  "row_bytes": 4096,
+  "rows": 65536,
+  "random_reads": 10000,
+  "warmup_reads": 1000,
+  "latency_us": {
+    "mean": 82.63385,
+    "p50": 80.1,
+    "p90": 89.9,
+    "p99": 164.1,
+    "max": 1055.9
+  },
+  "random_read_iops": 11953.409435112948,
+  "random_read_mbps": 48.96116504622263,
+  "token_model": {
+    "token_reads": 32,
+    "tokens": 1000
+  },
+  "token_latency_us": {
+    "mean": 2637.544,
+    "p50": 2590.7,
+    "p90": 2811.1,
+    "p99": 3268.2,
+    "max": 4231.0
+  },
+  "tokens_per_second": 379.0420235931675,
+  "token_read_mbps": 49.68179611640365
+}

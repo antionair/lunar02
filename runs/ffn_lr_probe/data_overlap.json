@@ -1,0 +1,10 @@
+{
+  "train_tokens": 30000000,
+  "validation_tokens": 200000,
+  "max_sampled_training_end_exclusive": 30000000,
+  "validation_start_token_index": 30000000,
+  "training_token_overlap": 0,
+  "training_validation_overlap_rate": 0.0,
+  "validation_or_neighbor_entered_training": false,
+  "sequence_window": 129
+}

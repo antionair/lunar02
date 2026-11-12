@@ -1,0 +1,48 @@
+{
+  "time_utc": "2026-11-11T15:43:22Z",
+  "hostname": "mark22",
+  "python": "3.12.3",
+  "torch": "2.14.1+cu130",
+  "cuda": "13.0",
+  "gpus": [
+    {
+      "index": 0,
+      "uuid": "GPU-d149ae20-68a4-2f3d-256f-e808281c7830",
+      "name": " NVIDIA GeForce RTX 3080",
+      "used_mib": 19379,
+      "free_mib": 675,
+      "utilization": 0
+    },
+    {
+      "index": 1,
+      "uuid": "GPU-8162f1a2-ef83-c5e3-42bc-bc2d192122dd",
+      "name": " NVIDIA RTX A4000",
+      "used_mib": 9465,
+      "free_mib": 6511,
+      "utilization": 0
+    },
+    {
+      "index": 2,
+      "uuid": "GPU-c24d87e8-5b73-9732-0d10-69aee2a761a2",
+      "name": " NVIDIA GeForce RTX 3080",
+      "used_mib": 225,
+      "free_mib": 19828,
+      "utilization": 0
+    },
+    {
+      "index": 3,
+      "uuid": "GPU-8e258ee4-017b-5203-eea8-753431ba1110",
+      "name": " NVIDIA GeForce RTX 3080",
+      "used_mib": 19073,
+      "free_mib": 981,
+      "utilization": 0
+    }
+  ],
+  "selected_gpu_uuid": "GPU-c24d87e8-5b73-9732-0d10-69aee2a761a2",
+  "source_sha256": {
+    "pkm.py": "11e5b6c32ddd6595767e64be2e77ea039e5dfe447fbd5acb75e626078850afce",
+    "model.py": "b5082457b841997306deb2f116b580ca5d9b9463cf27dcbe2a7b5625c5507363",
+    "train.py": "9d93d4af583853771b2b48bd39513f4822b143f443f3cf3ad3a45b311354de46"
+  },
+  "git_commit": null
+}
