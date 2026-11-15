@@ -1,0 +1,64 @@
+{
+  "time_utc": "2026-11-15T05:49:48Z",
+  "hostname": "mark22",
+  "python": "3.12.3",
+  "torch": "2.14.1+cu130",
+  "cuda": "13.0",
+  "gpus": [
+    {
+      "index": 0,
+      "uuid": "GPU-d149ae20-68a4-2f3d-256f-e808281c7830",
+      "name": " NVIDIA GeForce RTX 3080",
+      "memory_total_mib": 20480,
+      "memory_used_mib": 1,
+      "memory_free_mib": 20053,
+      "utilization": 0,
+      "power_limit_w": 250.0
+    },
+    {
+      "index": 1,
+      "uuid": "GPU-8162f1a2-ef83-c5e3-42bc-bc2d192122dd",
+      "name": " NVIDIA RTX A4000",
+      "memory_total_mib": 16376,
+      "memory_used_mib": 0,
+      "memory_free_mib": 15975,
+      "utilization": 2,
+      "power_limit_w": 140.0
+    },
+    {
+      "index": 2,
+      "uuid": "GPU-c24d87e8-5b73-9732-0d10-69aee2a761a2",
+      "name": " NVIDIA GeForce RTX 3080",
+      "memory_total_mib": 20480,
+      "memory_used_mib": 1,
+      "memory_free_mib": 20053,
+      "utilization": 0,
+      "power_limit_w": 250.0
+    },
+    {
+      "index": 3,
+      "uuid": "GPU-8e258ee4-017b-5203-eea8-753431ba1110",
+      "name": " NVIDIA GeForce RTX 3080",
+      "memory_total_mib": 20480,
+      "memory_used_mib": 1,
+      "memory_free_mib": 20053,
+      "utilization": 0,
+      "power_limit_w": 250.0
+    }
+  ],
+  "data_metadata_sha256": "d175575db0c61fd54a385a215c6b1887c60483abf55dd58f55d146fa0dd2cbc6",
+  "qa_file_sha256": "ccb88224c052cd662a39b43b62720bc7aa418b99a26c2e68f5b6bc083ce7dbb3",
+  "source_sha256": {
+    "pkm.py": "813664238622d1b8f6fef90dd42bd4c9c70e8b39cd99e45655fe792b0607a082",
+    "scale_model.py": "f4b79bfdf1af170f49527f9bf29f5f195f187363ef78f2eed81b19d623bea101",
+    "scale_train.py": "867a8bd0debd54097a734a19bd339c8da547d6da85edb7b67a144dcd6d17a240",
+    "run_scale_probe.py": "84dc6a057227266fc81d2a9a941c3b7d1b43f335a29e769ba56c833646c1df31",
+    "summarize_scale_probe.py": "564070f28246a8a3d3657f4691035dfc6753ba43d3d54f3a0872cfcacdd312c6"
+  },
+  "git_commit": null,
+  "value_memory_plan": {
+    "dense": "no value table",
+    "n1m": "1,000,000 x 512 FP32 values on CPU; FP32 AdamW states on CPU; selected rows copied to GPU",
+    "n4m": "4,000,000 x 512 FP32 values on CPU; FP32 AdamW states on CPU; selected rows copied to GPU"
+  }
+}

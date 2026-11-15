@@ -1,0 +1,368 @@
+{
+  "pass": true,
+  "total": 200,
+  "type_counts": {
+    "who": 80,
+    "what": 11,
+    "which": 15,
+    "how-many": 14,
+    "when": 50,
+    "where": 30
+  },
+  "when_where_count": 80,
+  "when_where_ratio": 0.4,
+  "when_where_within_60_percent": true,
+  "all_questions_have_allowed_type": true,
+  "all_where_answers_location_shaped": true,
+  "all_excerpts_end_at_sentence_boundary": true,
+  "all_have_accepted_aliases": true,
+  "failure_sample": [
+    {
+      "document_id": "<urn:uuid:17b26358-fba0-4434-86b5-ce1458abe71f>",
+      "pattern": "invented",
+      "reason": "semantic_validation_failed",
+      "name": "the",
+      "answer": "Harvard University"
+    },
+    {
+      "document_id": "<urn:uuid:f01a8af6-2422-47f6-a2f8-477c864a7d08>",
+      "pattern": "located",
+      "reason": "semantic_validation_failed",
+      "name": "Museum",
+      "answer": null
+    },
+    {
+      "document_id": "<urn:uuid:f01a8af6-2422-47f6-a2f8-477c864a7d08>",
+      "pattern": "located",
+      "reason": "semantic_validation_failed",
+      "name": "Museum",
+      "answer": "two of the original settlement house buildings- the Hull Home"
+    },
+    {
+      "document_id": "<urn:uuid:f684139c-4f94-4f1f-821a-2847edc6ba5b>",
+      "pattern": "invented",
+      "reason": "semantic_validation_failed",
+      "name": "the",
+      "answer": "He"
+    },
+    {
+      "document_id": "<urn:uuid:ed9dbb98-4768-4a07-84b7-372f728fdb7b>",
+      "pattern": "established",
+      "reason": "semantic_validation_failed",
+      "name": "Laboratory",
+      "answer": "1947"
+    },
+    {
+      "document_id": "<urn:uuid:5d5034f4-b974-4c74-91bf-ea7da192b616>",
+      "pattern": "written_by",
+      "reason": "semantic_validation_failed",
+      "name": "and",
+      "answer": "Rocky"
+    },
+    {
+      "document_id": "<urn:uuid:8a1e1f28-dd32-451a-bd69-c2585938da40>",
+      "pattern": "author_of",
+      "reason": "semantic_validation_failed",
+      "name": "Make",
+      "answer": "Anthony Lewis"
+    },
+    {
+      "document_id": "<urn:uuid:54d4806c-969d-4feb-9ca3-138375448d96>",
+      "pattern": "located",
+      "reason": "semantic_validation_failed",
+      "name": "Center",
+      "answer": "National Museum of American History"
+    },
+    {
+      "document_id": "<urn:uuid:54d4806c-969d-4feb-9ca3-138375448d96>",
+      "pattern": "located",
+      "reason": "semantic_validation_failed",
+      "name": "Center",
+      "answer": "National Museum of American History"
+    },
+    {
+      "document_id": "<urn:uuid:98ec614b-daef-452c-9e5b-ae03965de10f>",
+      "pattern": "invented",
+      "reason": "semantic_validation_failed",
+      "name": "the",
+      "answer": "Abraham Kuntze"
+    },
+    {
+      "document_id": "<urn:uuid:b4b03979-f5ce-4753-9873-392b1e355912>",
+      "pattern": "located",
+      "reason": "semantic_validation_failed",
+      "name": "It",
+      "answer": "eastern edge of the range"
+    },
+    {
+      "document_id": "<urn:uuid:25112d3e-1b59-4727-b5a3-3cf6cc617d34>",
+      "pattern": "located",
+      "reason": "semantic_validation_failed",
+      "name": "Center",
+      "answer": "Commonwealth Pier"
+    },
+    {
+      "document_id": "<urn:uuid:dd32635a-6ed5-4a8b-a737-5807eb7fdf76>",
+      "pattern": "developed_by",
+      "reason": "semantic_validation_failed",
+      "name": "Project",
+      "answer": "Diana"
+    },
+    {
+      "document_id": "<urn:uuid:702bbc2b-e859-4151-82ee-ac9afd8873dd>",
+      "pattern": "author_of",
+      "reason": "semantic_validation_failed",
+      "name": "Bodies",
+      "answer": "Elizabeth Reis"
+    },
+    {
+      "document_id": "<urn:uuid:01bfb6dc-0b60-46b9-a778-49affbf4e8ca>",
+      "pattern": "published",
+      "reason": "semantic_validation_failed",
+      "name": "and",
+      "answer": "1845"
+    },
+    {
+      "document_id": "<urn:uuid:cc871262-6e2e-4e4f-a909-b3fd012a101a>",
+      "pattern": "birthplace",
+      "reason": "semantic_validation_failed",
+      "name": "Walter Bagehot",
+      "answer": "on February 3"
+    },
+    {
+      "document_id": "<urn:uuid:dba327cb-af78-4542-95aa-778bc4b82866>",
+      "pattern": "directed_by",
+      "reason": "semantic_validation_failed",
+      "name": "and",
+      "answer": "Richard"
+    },
+    {
+      "document_id": "<urn:uuid:1564cb48-4309-4426-b589-36b3b65e1630>",
+      "pattern": "invented",
+      "reason": "semantic_validation_failed",
+      "name": "the",
+      "answer": "Teacher John Hunter"
+    },
+    {
+      "document_id": "<urn:uuid:31fab53b-eb78-4e38-ae2c-77d787710125>",
+      "pattern": "made_by",
+      "reason": "semantic_validation_failed",
+      "name": "Rayograph",
+      "answer": "Man"
+    },
+    {
+      "document_id": "<urn:uuid:7224336a-a4ac-4a18-b08c-16e1f425a0e0>",
+      "pattern": "invented_by",
+      "reason": "semantic_validation_failed",
+      "name": "and",
+      "answer": "Joel"
+    },
+    {
+      "document_id": "<urn:uuid:f50ed2ca-606b-45cb-8f21-0ba274882440>",
+      "pattern": "invented",
+      "reason": "semantic_validation_failed",
+      "name": "Algebra",
+      "answer": "Who"
+    },
+    {
+      "document_id": "<urn:uuid:e095e617-d926-456d-bef4-2bd5e7af0c0d>",
+      "pattern": "author_of",
+      "reason": "semantic_validation_failed",
+      "name": "Estrogens",
+      "answer": "He"
+    },
+    {
+      "document_id": "<urn:uuid:b51d44ab-e947-405d-afbe-bcfc3900d967>",
+      "pattern": "located",
+      "reason": "semantic_validation_failed",
+      "name": "It",
+      "answer": "eastern side of Lake Poyang"
+    },
+    {
+      "document_id": "<urn:uuid:70ae6338-65ea-4c96-b633-8e96a8846182>",
+      "pattern": "capital_reverse",
+      "reason": "semantic_validation_failed",
+      "name": "the",
+      "answer": "Trier"
+    },
+    {
+      "document_id": "<urn:uuid:70ae6338-65ea-4c96-b633-8e96a8846182>",
+      "pattern": "capital_was_reverse",
+      "reason": "semantic_validation_failed",
+      "name": "Trier",
+      "answer": "the"
+    },
+    {
+      "document_id": "<urn:uuid:70ae6338-65ea-4c96-b633-8e96a8846182>",
+      "pattern": "located",
+      "reason": "semantic_validation_failed",
+      "name": "It",
+      "answer": null
+    },
+    {
+      "document_id": "<urn:uuid:70ae6338-65ea-4c96-b633-8e96a8846182>",
+      "pattern": "located",
+      "reason": "semantic_validation_failed",
+      "name": "It",
+      "answer": "Rhineland-Palatinate near the German border with Luxembourg"
+    },
+    {
+      "document_id": "<urn:uuid:9ea58fa8-b877-43a4-812d-20cc6c990fc3>",
+      "pattern": "author_of",
+      "reason": "semantic_validation_failed",
+      "name": "West",
+      "answer": "Rick"
+    },
+    {
+      "document_id": "<urn:uuid:16a46350-d911-4631-9978-f57b2d4185a9>",
+      "pattern": "located",
+      "reason": "semantic_validation_failed",
+      "name": "Palace",
+      "answer": "Calle Rubén Darío"
+    },
+    {
+      "document_id": "<urn:uuid:5a4c2e5a-76a4-412c-b95e-4f2e2ce364fb>",
+      "pattern": "located",
+      "reason": "semantic_validation_failed",
+      "name": "Courthouse",
+      "answer": "Burlington"
+    },
+    {
+      "document_id": "<urn:uuid:efd6d686-c48c-485c-ba2c-6dab0c98e687>",
+      "pattern": "invented",
+      "reason": "semantic_validation_failed",
+      "name": "the",
+      "answer": "John Logie Baird"
+    },
+    {
+      "document_id": "<urn:uuid:7dbc89a4-38cf-4a24-abc8-ca85c23a7788>",
+      "pattern": "birthplace",
+      "reason": "semantic_validation_failed",
+      "name": "David Wallimann View Full Biography David",
+      "answer": "Aix-en-Provence"
+    },
+    {
+      "document_id": "<urn:uuid:35e3dfde-f26f-46fa-8fb9-6e39068eaed8>",
+      "pattern": "written_by",
+      "reason": "semantic_validation_failed",
+      "name": "STORIES",
+      "answer": "Jeri"
+    },
+    {
+      "document_id": "<urn:uuid:dda5fa8d-77cd-4552-845b-0f83f2ac79f7>",
+      "pattern": "invented",
+      "reason": "semantic_validation_failed",
+      "name": "the",
+      "answer": "Europeans"
+    },
+    {
+      "document_id": "<urn:uuid:af777708-800b-49cf-99ab-33c0dca09d0d>",
+      "pattern": "birthplace",
+      "reason": "semantic_validation_failed",
+      "name": "William Hubbs Rehnquist",
+      "answer": "Milwaukee"
+    },
+    {
+      "document_id": "<urn:uuid:5865ac48-f6ef-40a1-a357-9726343f85e6>",
+      "pattern": "published",
+      "reason": "semantic_validation_failed",
+      "name": "First",
+      "answer": "1925"
+    },
+    {
+      "document_id": "<urn:uuid:bd1a0564-efbb-4449-bb6a-f324168f30d6>",
+      "pattern": "invented",
+      "reason": "semantic_validation_failed",
+      "name": "the",
+      "answer": "Bernays"
+    },
+    {
+      "document_id": "<urn:uuid:f835fa81-6e94-4958-a2c4-f404e62408d5>",
+      "pattern": "birthplace",
+      "reason": "semantic_validation_failed",
+      "name": "Andrea Wulf",
+      "answer": "India"
+    },
+    {
+      "document_id": "<urn:uuid:477003f0-a152-4446-8996-fc4b39d999b5>",
+      "pattern": "birthplace",
+      "reason": "semantic_validation_failed",
+      "name": "Cyrus Roberts Vance",
+      "answer": "Clarksburg"
+    },
+    {
+      "document_id": "<urn:uuid:2edbcc52-4752-4ace-b538-2337b18521f4>",
+      "pattern": "invented",
+      "reason": "semantic_validation_failed",
+      "name": "the",
+      "answer": "IBM"
+    },
+    {
+      "document_id": "<urn:uuid:5cb11816-b171-4b8f-aa6f-fb84548d3a3f>",
+      "reason": "excerpt_has_no_complete_sentence"
+    },
+    {
+      "document_id": "<urn:uuid:a011f30d-dddb-4e94-bd4f-5c1398818a3b>",
+      "pattern": "located",
+      "reason": "semantic_validation_failed",
+      "name": "Flores",
+      "answer": "Petén"
+    },
+    {
+      "document_id": "<urn:uuid:a011f30d-dddb-4e94-bd4f-5c1398818a3b>",
+      "pattern": "located",
+      "reason": "semantic_validation_failed",
+      "name": "Flores",
+      "answer": "Petén"
+    },
+    {
+      "document_id": "<urn:uuid:ab1e6596-1632-4ff2-bcc2-677b62e17b4d>",
+      "pattern": "birthplace",
+      "reason": "semantic_validation_failed",
+      "name": "Antonia Novello",
+      "answer": "Fajardo"
+    },
+    {
+      "document_id": "<urn:uuid:1de423fc-8776-4595-a827-3d5db03cd9cc>",
+      "pattern": "established",
+      "reason": "semantic_validation_failed",
+      "name": "Area",
+      "answer": "1973"
+    },
+    {
+      "document_id": "<urn:uuid:5c1d4d5a-b64a-4b34-97fb-6c719ee2f3c2>",
+      "pattern": "built_by",
+      "reason": "semantic_validation_failed",
+      "name": "Estate",
+      "answer": "Frank"
+    },
+    {
+      "document_id": "<urn:uuid:9d0811dd-c0fa-4178-bf78-67af98610baa>",
+      "pattern": "invented",
+      "reason": "semantic_validation_failed",
+      "name": "the",
+      "answer": "He"
+    },
+    {
+      "document_id": "<urn:uuid:9d0811dd-c0fa-4178-bf78-67af98610baa>",
+      "pattern": "birthplace",
+      "reason": "semantic_validation_failed",
+      "name": "Lady Mary Pierrepont",
+      "answer": "London on May 15"
+    },
+    {
+      "document_id": "<urn:uuid:a471f30b-ce17-4aac-896e-c35d3c5b10dd>",
+      "pattern": "published",
+      "reason": "semantic_validation_failed",
+      "name": "and",
+      "answer": "1787"
+    },
+    {
+      "document_id": "<urn:uuid:2a0b5083-86de-45fd-99a3-cef3ab552a59>",
+      "pattern": "located",
+      "reason": "semantic_validation_failed",
+      "name": "It",
+      "answer": "Southeastern Mexico"
+    }
+  ]
+}

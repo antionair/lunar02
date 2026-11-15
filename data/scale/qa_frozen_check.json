@@ -1,0 +1,19 @@
+{
+  "pass": true,
+  "total": 176,
+  "rejected": 24,
+  "type_counts": {
+    "when": 50,
+    "who": 67,
+    "which": 12,
+    "what": 9,
+    "where": 25,
+    "how-many": 13
+  },
+  "when_where_ratio": 0.4261,
+  "when_where_within_60_percent": true,
+  "all_questions_end_with_question_mark": true,
+  "all_have_accepted_aliases": true,
+  "all_excerpts_end_at_sentence_boundary": true,
+  "all_answers_in_excerpt_or_alias_in_excerpt": true
+}

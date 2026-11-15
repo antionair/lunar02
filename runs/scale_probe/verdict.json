@@ -1,0 +1,10 @@
+{
+  "g1": 2.3591686147069026,
+  "g4": 254.83077938369735,
+  "r": 108.01719631021665,
+  "fact_monotonic": true,
+  "generalization_noise_band": 59.491137410895774,
+  "generalization_ok": true,
+  "usage_ok": true,
+  "verdict": "green"
+}

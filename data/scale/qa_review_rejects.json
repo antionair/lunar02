@@ -1,0 +1,146 @@
+[
+  {
+    "id": "qa-004",
+    "question": "What was the capital of Alabama?",
+    "answer": "Tuscaloosa",
+    "reason_zh": "摘录根本没说 Tuscaloosa 是阿拉巴马首府，事实无支撑"
+  },
+  {
+    "id": "qa-015",
+    "question": "Who created Declaration?",
+    "answer": "SIECUS",
+    "reason_zh": "SIECUS 做的是情况说明书，不是创建《宣言》本身，语义错误"
+  },
+  {
+    "id": "qa-039",
+    "question": "Which place is Lviv located in?",
+    "answer": "most Ukrainian region of Ukraine",
+    "reason_zh": "答案是形容词短语“最乌克兰的地区”，不是地名"
+  },
+  {
+    "id": "qa-044",
+    "question": "Where is Genomics located?",
+    "answer": "Center for Emerging Technologies in St",
+    "reason_zh": "答案在 “in St.” 处截断，地理名称不完整"
+  },
+  {
+    "id": "qa-067",
+    "question": "Who created Links?",
+    "answer": "Web",
+    "reason_zh": "答案为 “Web Master, Mrs.”，无效"
+  },
+  {
+    "id": "qa-072",
+    "question": "Where is Erie located?",
+    "answer": "Cleveland Ohio",
+    "reason_zh": "“Lake Erie is located in Cleveland Ohio” 来源差且事实错误"
+  },
+  {
+    "id": "qa-096",
+    "question": "Which place is Squamish located in?",
+    "answer": "prime cougar habitat",
+    "reason_zh": "答案“prime cougar habitat”不是地名"
+  },
+  {
+    "id": "qa-100",
+    "question": "Who developed POPS?",
+    "answer": "le",
+    "reason_zh": "答案只剩 “le”，无效"
+  },
+  {
+    "id": "qa-103",
+    "question": "Where is Town located?",
+    "answer": "highest part of Podillya Uplands",
+    "reason_zh": "题干主语“Town”无法对应到具体城镇，地理描述也可疑"
+  },
+  {
+    "id": "qa-106",
+    "question": "Who wrote Article?",
+    "answer": "Ian",
+    "reason_zh": "题干“Article”指代不明，无法自包含"
+  },
+  {
+    "id": "qa-118",
+    "question": "Who created Image?",
+    "answer": "Henri",
+    "reason_zh": "题干“Image”指代不明，无法自包含"
+  },
+  {
+    "id": "qa-121",
+    "question": "Who designed FLIP?",
+    "answer": "Phillip",
+    "reason_zh": "FLIP 设计者名单在源文里截断（Fred H.），事实不全"
+  },
+  {
+    "id": "qa-122",
+    "question": "Which place is Station located in?",
+    "answer": "one of the harshest",
+    "reason_zh": "答案“one of the harshest”不是地名"
+  },
+  {
+    "id": "qa-126",
+    "question": "Who produced Secondary?",
+    "answer": "la",
+    "reason_zh": "答案只剩 “la”，无效"
+  },
+  {
+    "id": "qa-144",
+    "question": "Where is Brest located?",
+    "answer": "its northern edge",
+    "reason_zh": "答案“its northern edge”依赖代词，不是地名"
+  },
+  {
+    "id": "qa-148",
+    "question": "Who developed PERK?",
+    "answer": "Heather",
+    "reason_zh": "被发展的是假说而不是 PERK 本身，题干语义错误"
+  },
+  {
+    "id": "qa-156",
+    "question": "Who made Discoveries?",
+    "answer": "British",
+    "reason_zh": "题干“Discoveries”指一张地图标题，无法自包含"
+  },
+  {
+    "id": "qa-160",
+    "question": "Who produced Declaration?",
+    "answer": "di",
+    "reason_zh": "答案只剩 “di”，无效"
+  },
+  {
+    "id": "qa-173",
+    "question": "Where is Mountain located?",
+    "answer": "Map XXIV in the atlas",
+    "reason_zh": "答案“Map XXIV in the atlas”不是地点"
+  },
+  {
+    "id": "qa-175",
+    "question": "Who created Christi?",
+    "answer": "Sams",
+    "reason_zh": "实体名从 “Corpus Christi” 错切，无法修复"
+  },
+  {
+    "id": "qa-178",
+    "question": "Who designed Site?",
+    "answer": "Aisling",
+    "reason_zh": "题干“Site”指代不明，无法自包含"
+  },
+  {
+    "id": "qa-184",
+    "question": "Who produced Image?",
+    "answer": "NASA",
+    "reason_zh": "图片署名多机构且题干泛指，无法自包含"
+  },
+  {
+    "id": "qa-198",
+    "question": "What was the capital of Quilmes?",
+    "answer": "It's",
+    "reason_zh": "答案为 “It's”，且 Quilmes 不是国家，题式错误"
+  },
+  {
+    "id": "qa-199",
+    "question": "How many people lived in Shreveport?",
+    "answer": "3,634",
+    "reason_zh": "3,634 只是白人口数，总人口约 8,884，答案有误导性"
+  }
+]

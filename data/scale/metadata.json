@@ -1,0 +1,93 @@
+{
+  "dataset": "HuggingFaceFW/fineweb-edu",
+  "split": "train",
+  "tokenizer": "gpt2",
+  "counts": {
+    "train": 152000000,
+    "eval_in_domain": 4000000,
+    "eval_domain": 4000000
+  },
+  "files": {
+    "train": "train_152m.bin",
+    "eval_in_domain": "eval_in_domain_4m.bin",
+    "eval_domain": "eval_domain_4m.bin"
+  },
+  "sha256": {
+    "train": "c724465a1e988c85a016970520f6d76375e321bf2d55e1cc52170449391f9c00",
+    "eval_in_domain": "048f7ae46dde6a0c767a3419a1b9f111738fdf6985d6b864e47930ffa376ce4e",
+    "eval_domain": "706115a5f6b671d497cc016bf53d53d61deb53a40c81fb1f516aaeb592ea4f48"
+  },
+  "shard_counts": {
+    "non_domain": [
+      44000000,
+      44000000,
+      44000000,
+      44000000
+    ],
+    "domain": [
+      1000000,
+      1000000,
+      1000000,
+      1000000
+    ]
+  },
+  "merge_offsets": {
+    "non_domain": [
+      {
+        "file": "part0_non_domain.bin",
+        "start": 0,
+        "count": 44000000
+      },
+      {
+        "file": "part1_non_domain.bin",
+        "start": 44000000,
+        "count": 44000000
+      },
+      {
+        "file": "part2_non_domain.bin",
+        "start": 88000000,
+        "count": 44000000
+      },
+      {
+        "file": "part3_non_domain.bin",
+        "start": 132000000,
+        "count": 24000000
+      }
+    ],
+    "domain": [
+      {
+        "file": "domain0.bin",
+        "start": 0,
+        "count": 1000000
+      },
+      {
+        "file": "domain1.bin",
+        "start": 1000000,
+        "count": 1000000
+      },
+      {
+        "file": "domain2.bin",
+        "start": 2000000,
+        "count": 1000000
+      },
+      {
+        "file": "domain3.bin",
+        "start": 3000000,
+        "count": 1000000
+      }
+    ]
+  },
+  "split_rule": {
+    "train": "first 152M tokens from non-reserved URL/domain hash shards",
+    "eval_in_domain": "next 4M tokens from non-reserved URL/domain hash shards",
+    "eval_domain": "first 4M tokens where blake2b(domain-or-url) mod 10 == 0",
+    "reserved_domains_excluded_from_training": true,
+    "qa_source_limit": "documents starting inside first 38M training tokens",
+    "train_eval_overlap_tokens": 0,
+    "train_eval_overlap_rate": 0.0
+  },
+  "shared_38m_slice": {
+    "start": 0,
+    "end": 38000000
+  }
+}
