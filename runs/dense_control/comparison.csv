@@ -1,0 +1,5 @@
+group,val_ppl,domain_ppl,tokens
+dense@38M,313.45,342.29,38M
+dense@152M,56.07,60.57,152M
+n1m@38M,311.09,336.2,38M
+n4m@152M,56.26,67.42,152M

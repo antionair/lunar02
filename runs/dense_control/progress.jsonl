@@ -1,0 +1,8 @@
+{"name": "dense152_lr0.0003_seed2", "lr": 0.0003, "seed": 2, "gpu": "gpu2_3080", "returncode": 0, "elapsed_sec": 57549.491303920746, "completed_at_utc": "2026-11-16T03:35:00Z"}
+{"name": "dense152_lr0.0003_seed1", "lr": 0.0003, "seed": 1, "gpu": "gpu0_3080", "returncode": 0, "elapsed_sec": 58986.59711742401, "completed_at_utc": "2026-11-16T03:58:57Z"}
+{"name": "dense152_lr0.0003_seed3", "lr": 0.0003, "seed": 3, "gpu": "gpu2_3080", "returncode": 0, "elapsed_sec": 23620.493808031082, "completed_at_utc": "2026-11-16T10:08:40Z"}
+{"name": "dense152_lr0.0003_seed4", "lr": 0.0003, "seed": 4, "gpu": "gpu0_3080", "returncode": 0, "elapsed_sec": 24325.4834856987, "completed_at_utc": "2026-11-16T10:44:22Z"}
+{"name": "dense152_lr0.0006_seed1", "lr": 0.0006, "seed": 1, "gpu": "gpu2_3080", "returncode": 0, "elapsed_sec": 46774.89811491966, "completed_at_utc": "2026-11-16T23:08:15Z"}
+{"name": "dense152_lr0.0006_seed2", "lr": 0.0006, "seed": 2, "gpu": "gpu0_3080", "returncode": 0, "elapsed_sec": 50629.559688568115, "completed_at_utc": "2026-11-17T00:48:12Z"}
+{"name": "dense152_lr0.0006_seed3", "lr": 0.0006, "seed": 3, "gpu": "gpu2_3080", "returncode": 0, "elapsed_sec": 26681.228237867355, "completed_at_utc": "2026-11-17T06:32:56Z"}
+{"name": "dense152_lr0.0006_seed4", "lr": 0.0006, "seed": 4, "gpu": "gpu0_3080", "returncode": 0, "elapsed_sec": 23735.56420469284, "completed_at_utc": "2026-11-17T07:23:47Z"}

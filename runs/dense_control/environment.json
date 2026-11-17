@@ -1,0 +1,30 @@
+{
+  "time_utc": "2026-11-15T11:35:50Z",
+  "purpose": "dense equal-training-control for scale probe #3 verdict",
+  "train_tokens": 152000000,
+  "grid": {
+    "lr": [
+      0.0003,
+      0.0006
+    ],
+    "seeds": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "qa_file_sha256": "ccb88224c052cd662a39b43b62720bc7aa418b99a26c2e68f5b6bc083ce7dbb3",
+  "data_bin_sha256": {
+    "train_152m.bin": "c724465a1e988c85a016970520f6d76375e321bf2d55e1cc52170449391f9c00",
+    "eval_in_domain_4m.bin": "048f7ae46dde6a0c767a3419a1b9f111738fdf6985d6b864e47930ffa376ce4e",
+    "eval_domain_4m.bin": "706115a5f6b671d497cc016bf53d53d61deb53a40c81fb1f516aaeb592ea4f48"
+  },
+  "source_sha256": {
+    "scale_model.py": "f4b79bfdf1af170f49527f9bf29f5f195f187363ef78f2eed81b19d623bea101",
+    "scale_train.py": "fcd44ba3cf5004cf78aab7e01d617a015bcc14eff21024302a58a34cca67655b",
+    "run_dense_control.py": "9624eafdf6b04193fd62631abb50d2c98095a8b18d56dcf4b5603c1a6cfac4c2",
+    "summarize_dense_control.py": "3c8699d585e56612ac317022fb18a174076768b750d407c5b58da38d0063cfa9"
+  },
+  "config_reference": "runs/scale_probe/dense_lr0.0003_seed1/args.json (probe #3 dense group)"
+}
