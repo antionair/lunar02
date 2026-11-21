@@ -1,0 +1,77 @@
+{
+  "n_test": 172,
+  "n_target": 31,
+  "donor_acc": 0.18023255813953487,
+  "small_acc_pre": 0.011627906976744186,
+  "target_ids": [
+    "qa-012",
+    "qa-013",
+    "qa-016",
+    "qa-023",
+    "qa-024",
+    "qa-025",
+    "qa-028",
+    "qa-031",
+    "qa-041",
+    "qa-043",
+    "qa-051",
+    "qa-062",
+    "qa-070",
+    "qa-075",
+    "qa-076",
+    "qa-078",
+    "qa-080",
+    "qa-083",
+    "qa-089",
+    "qa-090",
+    "qa-099",
+    "qa-101",
+    "qa-111",
+    "qa-116",
+    "qa-127",
+    "qa-161",
+    "qa-163",
+    "qa-182",
+    "qa-189",
+    "qa-190",
+    "qa-195"
+  ],
+  "grid": {
+    "g0.5_k1": {
+      "flips": 0,
+      "target_n": 31,
+      "regressions": 2,
+      "control_n": 2
+    },
+    "g0.5_k4": {
+      "flips": 0,
+      "target_n": 31,
+      "regressions": 2,
+      "control_n": 2
+    },
+    "g1.0_k1": {
+      "flips": 0,
+      "target_n": 31,
+      "regressions": 2,
+      "control_n": 2
+    },
+    "g1.0_k4": {
+      "flips": 0,
+      "target_n": 31,
+      "regressions": 2,
+      "control_n": 2
+    },
+    "g2.0_k1": {
+      "flips": 0,
+      "target_n": 31,
+      "regressions": 2,
+      "control_n": 2
+    },
+    "g2.0_k4": {
+      "flips": 0,
+      "target_n": 31,
+      "regressions": 2,
+      "control_n": 2
+    }
+  }
+}

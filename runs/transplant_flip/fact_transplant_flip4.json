@@ -1,0 +1,181 @@
+{
+  "n_test": 172,
+  "n_target": 31,
+  "donor_acc": 0.18023255813953487,
+  "small_acc_pre": 0.011627906976744186,
+  "target_ids": [
+    "qa-012",
+    "qa-013",
+    "qa-016",
+    "qa-023",
+    "qa-024",
+    "qa-025",
+    "qa-028",
+    "qa-031",
+    "qa-041",
+    "qa-043",
+    "qa-051",
+    "qa-062",
+    "qa-070",
+    "qa-075",
+    "qa-076",
+    "qa-078",
+    "qa-080",
+    "qa-083",
+    "qa-089",
+    "qa-090",
+    "qa-099",
+    "qa-101",
+    "qa-111",
+    "qa-116",
+    "qa-127",
+    "qa-161",
+    "qa-163",
+    "qa-182",
+    "qa-189",
+    "qa-190",
+    "qa-195"
+  ],
+  "grid": {
+    "g0.5_k1": {
+      "mode": "residual",
+      "scale": 0.5,
+      "topk": 1,
+      "flips": 0,
+      "target_n": 31,
+      "regressions": 0,
+      "control_n": 2,
+      "e1_top1": 1.0
+    },
+    "g0.5_k4": {
+      "mode": "residual",
+      "scale": 0.5,
+      "topk": 4,
+      "flips": 0,
+      "target_n": 31,
+      "regressions": 0,
+      "control_n": 2,
+      "e1_top1": 1.0
+    },
+    "g1.0_k1": {
+      "mode": "residual",
+      "scale": 1.0,
+      "topk": 1,
+      "flips": 0,
+      "target_n": 31,
+      "regressions": 0,
+      "control_n": 2,
+      "e1_top1": 1.0
+    },
+    "g1.0_k4": {
+      "mode": "residual",
+      "scale": 1.0,
+      "topk": 4,
+      "flips": 0,
+      "target_n": 31,
+      "regressions": 0,
+      "control_n": 2,
+      "e1_top1": 1.0
+    },
+    "g2.0_k1": {
+      "mode": "residual",
+      "scale": 2.0,
+      "topk": 1,
+      "flips": 0,
+      "target_n": 31,
+      "regressions": 0,
+      "control_n": 2,
+      "e1_top1": 1.0
+    },
+    "g2.0_k4": {
+      "mode": "residual",
+      "scale": 2.0,
+      "topk": 4,
+      "flips": 0,
+      "target_n": 31,
+      "regressions": 0,
+      "control_n": 2,
+      "e1_top1": 1.0
+    },
+    "a0.05_k1": {
+      "mode": "prehead_rel",
+      "scale": 0.05,
+      "topk": 1,
+      "flips": 0,
+      "target_n": 31,
+      "regressions": 0,
+      "control_n": 2,
+      "e1_top1": 1.0
+    },
+    "a0.05_k4": {
+      "mode": "prehead_rel",
+      "scale": 0.05,
+      "topk": 4,
+      "flips": 0,
+      "target_n": 31,
+      "regressions": 0,
+      "control_n": 2,
+      "e1_top1": 1.0
+    },
+    "a0.15_k1": {
+      "mode": "prehead_rel",
+      "scale": 0.15,
+      "topk": 1,
+      "flips": 0,
+      "target_n": 31,
+      "regressions": 0,
+      "control_n": 2,
+      "e1_top1": 1.0
+    },
+    "a0.15_k4": {
+      "mode": "prehead_rel",
+      "scale": 0.15,
+      "topk": 4,
+      "flips": 0,
+      "target_n": 31,
+      "regressions": 0,
+      "control_n": 2,
+      "e1_top1": 1.0
+    },
+    "a0.5_k1": {
+      "mode": "prehead_rel",
+      "scale": 0.5,
+      "topk": 1,
+      "flips": 0,
+      "target_n": 31,
+      "regressions": 0,
+      "control_n": 2,
+      "e1_top1": 1.0
+    },
+    "a0.5_k4": {
+      "mode": "prehead_rel",
+      "scale": 0.5,
+      "topk": 4,
+      "flips": 0,
+      "target_n": 31,
+      "regressions": 0,
+      "control_n": 2,
+      "e1_top1": 1.0
+    },
+    "logitbias_g2.0_k1": {
+      "mode": "logitbias",
+      "scale": 2.0,
+      "topk": 1,
+      "flips": 0,
+      "target_n": 31,
+      "regressions": 0,
+      "control_n": 2,
+      "e1_top1": 1.0
+    },
+    "logitbias_g6.0_k1": {
+      "mode": "logitbias",
+      "scale": 6.0,
+      "topk": 1,
+      "flips": 0,
+      "target_n": 31,
+      "regressions": 0,
+      "control_n": 2,
+      "e1_top1": 1.0
+    }
+  }
+}

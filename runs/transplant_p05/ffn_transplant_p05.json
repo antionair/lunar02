@@ -1,0 +1,154 @@
+{
+  "experiment": "ffn_transplant_p05",
+  "question": "\u771f\u5b9e14B SwiGLU\u77e9\u9635\u4e0a\u7a00\u758fFFN\u590d\u5370\u7cbe\u5ea6 + 0.5B->14B\u5cad\u56de\u5f52\u6865\u53ef\u7528\u6027",
+  "donor_gguf": {
+    "path": "/mnt/mark7/10gb/standard/Qwen3-14B-Q4_K_M.gguf",
+    "sha256": "5eaa0870bd81ed3b58a630a271234cfa604e43ffb3a19cd68e54a80dd9d52a66"
+  },
+  "small_ckpt": {
+    "path": "/home/antionair/pkm_experiment/runs/dense_control/dense152_lr0.0003_seed1/checkpoint.pt",
+    "sha256": "9f4b784d0f71118cd9e003fe5f1d82b57408d0cd32e3eb31947c48a3415b7886",
+    "arch": {
+      "d_model": 1024,
+      "layers": 36,
+      "layer_hook": 17
+    }
+  },
+  "layer_big": 20,
+  "dims": {
+    "hidden": 5120,
+    "n_slots": 17408
+  },
+  "protocol": {
+    "keys": "W_gate rows / L2 norm",
+    "values": "W_down cols (raw)",
+    "extra": "W_up rows for u_j",
+    "score": "<h, key>",
+    "reconstruct": "g = score * ||row||",
+    "activation": "silu(g)*u",
+    "anchor_exact_at_full_k": true,
+    "query_space": "layer-20 gate_proj input (post_attention_layernorm)"
+  },
+  "data": {
+    "text_source": "/home/antionair/pkm_experiment/data/scale/qa_frozen.jsonl",
+    "positions_BxL": [
+      8,
+      384
+    ],
+    "bridge_align": "position_i pairing, first-M",
+    "val_split": "last 30%"
+  },
+  "native_error_k": {
+    "64": {
+      "rel_l2": 0.8773492735349548,
+      "cos": 0.4825593358785249
+    },
+    "256": {
+      "rel_l2": 0.7992834855711453,
+      "cos": 0.6023081792589662
+    },
+    "512": {
+      "rel_l2": 0.7460643587368827,
+      "cos": 0.6667127801571502
+    },
+    "1024": {
+      "rel_l2": 0.6947825602287261,
+      "cos": 0.7196112038789415
+    },
+    "2048": {
+      "rel_l2": 0.6650528134046849,
+      "cos": 0.7468772351411362
+    },
+    "4096": {
+      "rel_l2": 0.6622667676382569,
+      "cos": 0.7492716442734906
+    },
+    "8192": {
+      "rel_l2": 0.6224418329614485,
+      "cos": 0.7829367909753648
+    }
+  },
+  "bridge": {
+    "ridge_closed_form": true,
+    "lam": 797.7414531185194,
+    "val_rel_l2": 0.9345760157578282,
+    "fit_rel_l2": 0.8802550154507562
+  },
+  "bridged_error_k_val": {
+    "64": {
+      "rel_l2": 0.9952381701463057,
+      "cos": 0.11035602942068844
+    },
+    "256": {
+      "rel_l2": 1.0016833404262218,
+      "cos": 0.0358608960286337
+    },
+    "512": {
+      "rel_l2": 1.0104202097711692,
+      "cos": -0.010943273430643885
+    },
+    "1024": {
+      "rel_l2": 1.0167408280188335,
+      "cos": -0.02988632070821719
+    },
+    "2048": {
+      "rel_l2": 1.0184527246279462,
+      "cos": -0.034741873510390826
+    },
+    "4096": {
+      "rel_l2": 1.0180442287211418,
+      "cos": -0.03138737831846644
+    },
+    "8192": {
+      "rel_l2": 1.0180015429685294,
+      "cos": -0.011899705533502601
+    }
+  },
+  "native_error_k_val": {
+    "64": {
+      "rel_l2": 0.8821538862071877,
+      "cos": 0.47610256849576604
+    },
+    "256": {
+      "rel_l2": 0.8050780646447597,
+      "cos": 0.5956326725270832
+    },
+    "512": {
+      "rel_l2": 0.752472518395697,
+      "cos": 0.6601381595542294
+    },
+    "1024": {
+      "rel_l2": 0.701410472012674,
+      "cos": 0.7135341487290062
+    },
+    "2048": {
+      "rel_l2": 0.6714703384499962,
+      "cos": 0.7412839066439495
+    },
+    "4096": {
+      "rel_l2": 0.6688459235106343,
+      "cos": 0.7434706799137236
+    },
+    "8192": {
+      "rel_l2": 0.6278467707223809,
+      "cos": 0.7788638790656862
+    }
+  },
+  "k_grid": [
+    64,
+    256,
+    512,
+    1024,
+    2048,
+    4096,
+    8192
+  ],
+  "versions": {
+    "torch": "2.14.1+cu130",
+    "transformers": "5.6.0"
+  },
+  "wall_s": {
+    "load": null,
+    "total": null
+  }
+}
